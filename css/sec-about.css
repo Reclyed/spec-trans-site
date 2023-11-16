@@ -1,0 +1,138 @@
+.about {
+  margin-bottom: 80px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px;
+}
+
+.about__inner-left {
+  max-width: 580px;
+  flex: 1 1 auto;
+}
+
+.about__inner-title {
+  margin-bottom: 28px;
+  color: #1D1D1B;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.about__inner-text {
+  color: #67675F;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: 0.09px;
+}
+
+.about__inner-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 185px;
+  border-radius: 24px;
+  background: #F8F8F8;
+  max-width: 100%;
+  flex: 1 1 auto;
+}
+
+.right-box {
+  padding-top: 114px;
+}
+.right-box h3 {
+  color: #1D1D1B;
+  font-size: 88px;
+  font-weight: 300;
+  line-height: 142%;
+  letter-spacing: 0.44px;
+  margin-bottom: 18px;
+}
+.right-box p {
+  color: #67675F;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: 0.12px;
+  margin-bottom: 155px;
+}
+
+.plus {
+  position: relative;
+}
+.plus::after {
+  content: "+";
+  position: absolute;
+  color: #27AE60;
+  top: 10px;
+  left: 115px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 142%;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 1300px) {
+  .about__inner {
+    gap: 20px;
+  }
+}
+@media (max-width: 1130px) {
+  .about__inner-right {
+    gap: 80px;
+    width: 476px;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 1100px) {
+  .right-box:nth-child(1) {
+    padding-top: 148px;
+  }
+}
+@media (max-width: 850px) {
+  .about__inner {
+    flex-direction: column;
+  }
+}
+@media (max-width: 630px) {
+  .about__inner-title {
+    font-size: 24px;
+  }
+  .about__inner-text {
+    font-size: 14px;
+  }
+  .about__inner-right {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-box {
+    padding: 0;
+  }
+  .right-box:nth-child(1) {
+    padding-top: 40px;
+  }
+  .right-box h3 {
+    text-align: center;
+    color: #1D1D1B;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 142%;
+    letter-spacing: 0.25px;
+  }
+  .right-box p {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .plus {
+    text-align: center;
+  }
+  .plus::after {
+    top: -20px;
+    left: 100px;
+  }
+}/*# sourceMappingURL=sec-about.css.map */

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik";
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #1D1D1B;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}/*# sourceMappingURL=main.css.map */
